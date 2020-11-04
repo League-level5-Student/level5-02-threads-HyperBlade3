@@ -1,6 +1,6 @@
 package _03_Threaded_Greeting;
 
-public class ThreadedGreeting {
+public class ThreadedGreeting s{
 	/*
 	 * The goal of this assignment is to create a chain of threads. Thread 1 will create Thread 2, 
 	 * Thread 2 will create Thread 3, Thread 3 will create Thread 4 and so on up to 50 threads.
@@ -42,5 +42,11 @@ public class ThreadedGreeting {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
 	}
 }
